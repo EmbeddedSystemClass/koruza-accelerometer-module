@@ -29,7 +29,7 @@ This means the MCU need to process the data before sending it. Data will be sent
 To collect information about peak value and average intensity over some period of time and for each axis we need to change from the time domain to frequency domain. This will be done using Furie transformation (FFT).
 
 ### Data
-Like mentioned data is sent for every axis:
+Like mentioned data is sent for every axis in four compile-time defined frequency ranges:
 * x axis
   * average value for each range
     * avg_x[0], A - B Hz
